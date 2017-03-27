@@ -1,0 +1,155 @@
+body {
+	color:#777;
+	background:#f0f0f0;
+}
+
+
+.header {
+	margin-left:200px;
+	margin:0; 
+	color:#333;
+	text-align:center;
+	border-bottom : 1px solid #E1E1E1;
+}
+
+.header h1 {
+    margin: 0.2em 0;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.header h2 {
+    font-weight: 300;
+    color: #ccc;
+    padding: 0;
+    margin-top: 0;
+}
+
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	background: #191818;
+	padding: 0;
+}
+
+#web-body{
+	/*position:fixed;*/
+	top:0;
+	bottom:0;
+	/*background: #191818;*/
+	padding: 0;
+}
+
+.container{
+	display: table;
+}
+
+no-float {
+	float: none;
+	display: table-cell;
+}
+
+.menu-header{
+	background: #1f8dd6;
+	font-size: 120%;
+	color: #fff;
+	vertical-align:middle;
+	padding: 0.6em 0 0.6em 0.6em;
+}
+
+.menu,
+.menu-item {
+	position:relative;
+}
+
+.menu a {
+    color: #999;
+    border: none;
+    padding: 0.6em 0 0.6em 0.6em;
+}
+
+.menu{
+	list-style:non;
+	margin:0;
+	padding:0;
+	display:inline-block;
+}
+
+.menu-item {
+
+	margin:0;
+	height:100%;
+	zoom:1;
+	vertical-align:middle;
+	display:block;
+	width: 225px;
+}
+
+.menu-link,
+.menu-header{
+	display:block;
+	text-decoration:none;
+	white-space: nowrap;
+	/*width: 227px;*/
+}
+
+.menu-link:visited, .menu-link:focus, .menu-link:hover{
+	color: #999;
+	display:block;
+	text-decoration:none;
+	white-space: nowrap;
+}
+
+
+.menu-header:hover, .menu-header:visited, .menu-header:focus{
+	color: #fff;
+	display:block;
+	text-decoration:none;
+	white-space: nowrap;
+}
+
+#menu .menu,
+#menu .menu ul {
+    border: none;
+    background: transparent;
+}
+ 
+.menu ul,
+.menu-item {
+    border-top: 1px solid #333;
+    padding: 0;
+}
+
+.menu li a:hover,
+.menu li a:focus {
+    background: #333;
+}
+
+.header-connexion-date{
+	width:100%;
+	text-align:right;
+}
+.header-name{
+	position:fixed;
+	text-align:left;
+	width:50%;
+}
+
+#blockquoteBlue{
+	font-size:14px;
+	border-left:5px solid #1f8dd6;
+	border-radius:2px 0px 0px 2px;
+}
+
+.offer-blockquote{
+	word-wrap: break-word;
+}
+
+.img-offer{
+	max-width: 360px;
+	max-height: 200px;
+}
+
+
